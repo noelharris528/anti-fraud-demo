@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>免费领取USTC校标徽章</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: "Microsoft YaHei", Arial, sans-serif;
+            background-color: #f0f4f8;
+            color: #333;
+        }
+
+        header {
+            background-color: #003f8c;
+            color: white;
+            padding: 20px 0;
+        }
+
+        header h1 {
+            margin: 0;
+            text-align: center;
+            font-size: 26px;
+        }
+
+        header p {
+            text-align: center;
+            margin-top: 8px;
+            font-size: 14px;
+            opacity: 0.9;
+        }
+
+        .container {
+            width: 460px;
+            margin: 50px auto;
+            background: white;
+            padding: 35px 40px;
+            border-radius: 6px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+        }
+
+        .subtitle {
+            text-align: center;
+            color: #666;
+            margin-bottom: 25px;
+        }
+
+        label {
+            display: block;
+            margin-top: 18px;
+            font-size: 14px;
+        }
+
+        input {
+            width: 100%;
+            margin-top: 6px;
+            padding: 9px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 14px;
+        }
+
+        button {
+            width: 100%;
+            margin-top: 30px;
+            padding: 12px;
+            background-color: #005bac;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #0072d6;
+        }
+
+        .notice {
+            margin-top: 25px;
+            font-size: 12px;
+            color: #888;
+            line-height: 1.6;
+            border-top: 1px dashed #ddd;
+            padding-top: 15px;
+        }
+
+        footer {
+            text-align: center;
+            font-size: 12px;
+            color: #999;
+            margin: 30px 0;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>免费领取USTC校标徽章</h1>
+    <p>数量有限 · 先到先得</p>
+</header>
+
+<div class="container">
+    <div class="subtitle">
+        请如实填写以下信息完成领取登记
+    </div>
+
+    <form id="demoForm">
+        <label>姓名
+            <input type="text" placeholder="请输入姓名">
+        </label>
+
+        <label>学号
+            <input type="text" placeholder="请输入学号">
+        </label>
+
+        <label>院系
+            <input type="text" placeholder="请输入院系">
+        </label>
+
+        <label>班级
+            <input type="text" placeholder="请输入班级">
+        </label>
+
+        <label>联系电话
+            <input type="tel" placeholder="请输入手机号码">
+        </label>
+
+        <button type="submit">提交申请</button>
+    </form>
+</div>
+
+<footer>
+    © 信息安全教育演示页面
+</footer>
+
+<script>
+    document.getElementById("demoForm").addEventListener("submit", function (e) {
+        e.preventDefault();
+        alert("正在提交申请，请稍候……");
+        setTimeout(function () {
+            window.location.href =
+                "https://www.bilibili.com/video/BV1GJ411x7h7/?spm_id_from=333.337.search-card.all.click&vd_source=650a36ae9778a74f1a499c43c10f9dd8";
+        }, 2000);
+    });
+</script>
+
+</body>
+</html>
